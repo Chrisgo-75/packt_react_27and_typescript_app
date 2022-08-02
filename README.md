@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# Initial Start of This Application
+
+1. This is a very simple React TypeScript Todo application.
+
+2. Created an empty directory.
+
+3. cd to empty directory.
+
+4. `$ npm init -y`
+
+    * creates empty package.json file. b/c we'll need that to install dependencies.
+
+5. `$ npm install typescript`
+
+6. `$ npx tsc`
+
+    * compiles typescript to javascript.
+    * this command expects a typescript configuration file that tells typescript which files to compile.
+    * so can run a short command, pointing to a specifc typescript file by running:  npx tsc my_ts_file.ts
+
+7. Create React App w/TypeScript `$ npx create-react-app react-ts-proj --template typescript`
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
